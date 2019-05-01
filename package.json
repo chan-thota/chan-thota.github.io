@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "description": "My personal portfolio npm project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Biswas Nandamuri",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.4"
+  }
+}
