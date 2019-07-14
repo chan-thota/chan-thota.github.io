@@ -1,4 +1,4 @@
-/* Coolors Exported Palette - coolors.co/1e1e24-05668d-028090-00a896-f1faee */
+/* Coolors Exported Palette - coolors.co/1e1e24-05668d-028090-00a896-fafaff */
 /* HSL */
 /* RGB */
 /*! bulma.io v0.7.4 | MIT License | github.com/jgthms/bulma */
@@ -6928,3 +6928,22 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.button {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s; }
+
+.resume-btn:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px); }
+
+.icons {
+  margin-top: 10px;
+  padding-top: 10px; }
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px; }
