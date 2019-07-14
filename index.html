@@ -4,35 +4,101 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home | Biswas Nandamuri</title>
-
-    <link rel="stylesheet" href="./css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
-    />
+    <link rel="stylesheet" href="/css/main.css" />
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
   </head>
   <body>
-    <section class="section title-section">
-      <div class="container title-container">
-        <h1 class="title">
-          Hello World
-        </h1>
-        <p class="subtitle">My name is <strong>Biswas</strong>!</p>
-        <a href="./Resume-Software-Digital.pdf">
-          <button class="button is-primary is-rounded is-medium">
-            My Resume
-          </button>
-        </a>
-        <a href="http://myblog-env.r3prh49tmm.ap-southeast-2.elasticbeanstalk.com/">
-          <button class="button is-primary is-rounded is-medium">
-            Site
-          </button>
-        </a>
+    <section class="hero is-fullheight">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="/assets/Svg/Logo.svg" alt="Logo" />
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  Home
+                </a>
+                <a class="navbar-item" href="/404.html">
+                  Projects
+                </a>
+                <a class="navbar-item" href="/404.html">
+                  About
+                </a>
+                <span class="navbar-item">
+                  <a
+                    class="button is-primary is-outlined is-rounded"
+                    href="mailto:biswas.nandamuri@gmail.com"
+                  >
+                    <span>Say Hi!</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column">
+              <h1 class="title is-3" style="padding-bottom: 8px;">
+                Hey, I'm Biswas
+              </h1>
+              <h2 class="subtitle is-5">
+                I am a developer and a thinker from Melbourne, putting my skills
+                to create human-centric and visually pleasant applications.
+              </h2>
+              <a
+                class="button is-primary is-large is-rounded resume-btn"
+                href="https://docs.biswas.coffee/Resume-Software-Digital.pdf"
+                >Resume</a
+              >
+              <div class="icons">
+                <div class="icon">
+                  <a href="https://www.linkedin.com/in/biswas-n/">
+                    <img src="/assets/Svg/LN.svg" alt="Logo" />
+                  </a>
+                </div>
+                <div class="icon">
+                  <a href="https://github.com/Biswas-N">
+                    <img src="/assets/Svg/GH.svg" alt="Logo" />
+                  </a>
+                </div>
+                <div class="icon">
+                  <a href="/404.html">
+                    <img src="/assets/Svg/DR.svg" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column has-text-centered">
+              <figure class="image">
+                <img
+                  src="/assets/Svg/Landing-Graphic.svg"
+                  alt="Logo"
+                  style="width: 90%; float: right;"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <script type="text/javascript" src="/js/index.js"></script>
   </body>
 </html>
