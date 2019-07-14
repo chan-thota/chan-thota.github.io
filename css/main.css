@@ -6947,3 +6947,9 @@ label.panel-block {
   width: 30px;
   height: 30px;
   margin-right: 12px; }
+
+.title-section {
+  margin-top: 10vh; }
+
+.title-container {
+  text-align: center; }
